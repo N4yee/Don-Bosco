@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Bosco</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ffafbd, #ffc3a0);
+            color: #333;
+        }
+        header {
+            background-color: #0078D4;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        header p {
+    font-size: 1.2rem; /* Tamaño de fuente */
+    color: #ffffff; /* Color blanco */
+    margin-top: 10px; /* Espacio entre el título y el texto */
+    font-weight: normal; /* Fuente normal */
+}
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #005bb5;
+            padding: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: transform 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            transform: scale(1.1);
+            color: #ffe66d;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+        /* Galería */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        /* Video */
+        .video iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 315px;
+            border-radius: 8px;
+            border: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        /* Información */
+        #informacion {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: left;
+            line-height: 1.6;
+        }
+        #informacion h2, #informacion h3 {
+            color: #003366;
+            margin-bottom: 10px;
+        }
+        #informacion p {
+            margin-bottom: 15px;
+        }
+        #informacion strong {
+            font-weight: bold;
+        }
+        /* Haciendo más legible el contenido en pantallas pequeñas */
+        @media (max-width: 768px) {
+            #informacion {
+                padding: 15px;
+                max-width: 100%;
+            }
+        }
+        /* Títulos (h1, h2, h3) */
+        header h1 {
+            color: #003366;
+        }
+        #informacion h2, #informacion h3 {
+            color: #003366;
+        }
+        /* Footer - Derechos de autor */
+        footer {
+            background-color: #0078D4;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.2);
+        }
+        footer p {
+            font-size: 1rem;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Don Bosco</h1>
+    <p>Te invitamos a descubrir Don Bosco, un corregimiento joven y vibrante en el distrito de Panamá. Fundado en 2017, este lugar, que alberga a más de 76,000 habitantes, es hogar de diversas barriadas llenas de vida y historia. .</p>
+</header>
+
+    <nav>
+        <a href="#galeria">Galería</a>
+        <a href="#video">Video Explicativo</a>
+        <a href="#informacion">Información</a>
+    </nav>
+    <main>
+        <section id="galeria" class="section">
+            <h2>Galería</h2>
+            <div class="gallery">
+                <!-- Galería de imágenes -->
+                <img src="img/imagen1.jpg" alt="Imagen 1">
+                <img src="img/imagen2.jpg" alt="Imagen 2">
+                <img src="img/imagen3.jpg" alt="Imagen 3">
+                <img src="img/imagen4.jpg" alt="Imagen 4">
+                <img src="img/imagen5.jpg" alt="Imagen 5">
+                <img src="img/imagen6.jpg" alt="Imagen 6">
+                <img src="img/imagen7.jpg" alt="Imagen 7">
+                <img src="img/imagen8.jpg" alt="Imagen 8">
+                <img src="img/imagen9.jpg" alt="Imagen 9">
+                <img src="img/imagen10.jpg" alt="Imagen 10">
+                <img src="img/imagen11.jpg" alt="Imagen 11">
+                <img src="img/imagen12.jpg" alt="Imagen 12">
+                <img src="img/imagen13.jpg" alt="Imagen 13">
+                <img src="img/imagen14.jpg" alt="Imagen 14">
+                <img src="img/imagen15.jpg" alt="Imagen 15">
+                <img src="img/imagen16.jpg" alt="Imagen 16">
+                <img src="img/imagen17.jpg" alt="Imagen 17">
+                <img src="img/imagen18.jpg" alt="Imagen 18">
+                <img src="img/imagen19.jpg" alt="Imagen 19">
+                <img src="img/imagen20.jpg" alt="Imagen 20">
+            
+                <img src="img/imagen22.jpg" alt="Imagen 22">
+                <img src="img/imagen23.jpg" alt="Imagen 23">
+                <img src="img/imagen24.jpg" alt="Imagen 24">
+                <img src="img/imagen25.jpg" alt="Imagen 25">
+                <img src="img/imagen26.jpg" alt="Imagen 26">
+                <img src="img/imagen27.jpg" alt="Imagen 27">
+                <img src="img/imagen28.jpg" alt="Imagen 28">
+                <img src="img/imagen29.jpg" alt="Imagen 29">
+                <!-- Continúa hasta completar 30 imágenes -->
+            </div>
+        </section>
+        <section id="video" class="section">
+            <h2>Video Explicativo</h2>
+            <div class="video">
+                <iframe src="video.mp4" title="Video explicativo" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+       <section id="informacion" class="section">
+    <h2>Información sobre Don Bosco</h2>
+    <p>
+        Don Bosco, uno de los más recientes corregimientos del Distrito de Panamá, fue oficialmente fundado el 31 de mayo de 2017 bajo la Ley 42. Este corregimiento marca el inicio de una nueva era para sus 32 vibrantes barriadas.
+    </p>
+    
+    <h3>Localización de Don Bosco</h3>
+    <p><strong>Coordenadas:</strong> 9°03′12″N 79°25′02″O / 9.05325, -79.417166666667</p>
+    <p><strong>Capital:</strong> Don Bosco</p>
+    <p><strong>Provincia:</strong> Panamá</p>
+    <p><strong>Distrito:</strong> Panamá</p>
+    <p><strong>Población:</strong> 76,000 habitantes</p>
+    
+    <h3>Comunidades del corregimiento</h3>
+    <p>
+        El corregimiento de Don Bosco comprende 26 comunidades, entre ellas: Costa Sur, Versalles, Villa Don Bosco, Cantabria, Las Acacias, La Riviera, Altos de Plaza Tocumen, Bello Horizonte y Los Caobos.
+    </p>
+    
+    <h3>Juan Melchor Bosco</h3>
+    <p>
+        Juan Melchor Bosco, conocido como Don Bosco, nació el 16 de agosto de 1815 en una finca en las colinas de Becchi, en los Alpes italianos. Provino de una familia humilde dedicada a la agricultura y desde temprana edad mostró un fuerte compromiso con la educación, lo que lo llevó a convertirse en un gran educador y líder espiritual.
+    </p>
+</section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Don Bosco. Todos los derechos reservados.Kevin Gutierrez, Lya Salazar, Alejandro Arrieta, Francois White</p>
+    </footer>
+</body>
+</html>
